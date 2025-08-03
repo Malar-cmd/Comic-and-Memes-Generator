@@ -5,8 +5,11 @@ The primary aim of this project is to develop and launch an innovative AI-powere
 **WorkFlow**
 
 [User Input]-> Gets the base prompt and image style from the user.
+
 [Text Generation]->With the base prompt use the prompt to generate a detailed prompt
+
 [Image Generation]->Use this generated detailed prompt and the image style to generate the image.
+
 [Display the generated text and image]-> Lastly the generated text and image is displayed. 
 
 **Implementation**

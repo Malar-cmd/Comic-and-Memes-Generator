@@ -15,3 +15,69 @@ The primary aim of this project is to develop and launch an innovative AI-powere
 **Implementation**
 
 The core functionality will rely on integrating generative AI models for image creation (Stable Diffusion) and large language models for text and dialogue generation (Misteral AI), ensuring the output aligns with the user's humorous, trending, or personal themes. The application will display the generated visual and textual content.
+
+
+Here’s the **Local Setup** section rewritten as **clear step-by-step points** for your README:
+
+---
+
+##  Local Setup
+
+1. **Install prerequisites**
+   Make sure you have:
+
+   * [Node.js v16+](https://nodejs.org/en/download/)
+   * npm (comes with Node.js)
+
+2. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Malar-cmd/Comic-and-Memes-Generator
+   cd Comic-and-Memes-Generator
+   ```
+
+3. **Set up environment variables**
+   Create a `.env` file in the root (or backend folder) and add:
+
+   ```
+   MISTRAL_API_KEY=your_mistral_api_key_here
+   IMAGE_API_KEY=your_image_api_key_here
+   ```
+
+4. **Install dependencies**
+
+   * **Backend**
+
+     ```bash
+     cd backend
+     npm install
+     ```
+   * **Frontend**
+
+     ```bash
+     cd frontend
+     npm install
+     ```
+
+5. **Start the backend**
+
+   ```bash
+   npm run dev
+   ```
+
+   Runs the backend server on `http://localhost:5000` (default).
+
+6. **Start the frontend**
+
+   ```bash
+   npm start
+   ```
+
+   Runs the React app on `http://localhost:3000`.
+
+7. **Open the app**
+   Visit `http://localhost:3000` in your browser, enter your prompt, choose a style, and generate your comic/meme.
+
+---
+
+If you want, I can now **merge this step list** into the README I made earlier so you have a **complete and clean final file**.

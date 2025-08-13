@@ -77,7 +77,3 @@ Here’s the **Local Setup** section rewritten as **clear step-by-step points** 
 
 7. **Open the app**
    Visit `http://localhost:3000` in your browser, enter your prompt, choose a style, and generate your comic/meme.
-
----
-
-If you want, I can now **merge this step list** into the README I made earlier so you have a **complete and clean final file**.
